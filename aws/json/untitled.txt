@@ -1,0 +1,4 @@
+aws sns subscribe \
+    --topic-arn="arn:aws:sns:us-east-2:678876175895:billing-alarm" \
+    --protocol=email \
+    --notification-endpoint=campbjp@hotmail.com
